@@ -10,7 +10,7 @@ const Gallery = () => {
             <CardContent className="p-6">
               <AspectRatio ratio={16 / 9}>
                 <iframe
-                  src="https://player.twitch.tv/?channel=ayv3e&parent=localhost&autoplay=false"
+                  src="https://player.twitch.tv/?channel=ayv3e&parent=ayv3e.lvh.lol&autoplay=false"
                   frameBorder="0"
                   allowFullScreen={true}
                   scrolling="no"
@@ -24,7 +24,7 @@ const Gallery = () => {
             <CardContent className="p-6">
               <AspectRatio ratio={16 / 9}>
                 <iframe
-                  src="https://player.twitch.tv/?collection=1234567890&parent=localhost&autoplay=false"
+                  src="https://player.twitch.tv/?collection=1234567890&parent=ayv3e.lvh.lol&autoplay=false"
                   frameBorder="0"
                   allowFullScreen={true}
                   scrolling="no"
